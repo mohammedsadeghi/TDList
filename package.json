@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "tsc && vite build --output-path dist",
+    "build": "tsc && vite build --outDir dist",
     "preview": "vite preview",
     "test": "vitest",
     "format": "prettier --write .",
